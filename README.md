@@ -1,11 +1,11 @@
 # When Life Gives You Lemons
 To The Moon And Hack - MLH Hackathon 2020
 
-# Official Links
+## Official Links
 * [Website](https://whenlifegivesyoulemoons.space)
 * [Devpost Project Details + Demo](https://devpost.com/software/when-life-gives-you-lemoons/)
 
-
+## Notes
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
