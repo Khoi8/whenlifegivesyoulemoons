@@ -1,7 +1,7 @@
 # When Life Gives You Lemoons
 When life gives you lemons, use Lemoons. <br />
 Lemoons is a geosocial networking and online space dating application. <br />
-Match, chat, and meet new Aliens.
+Match, chat, and meet new Aliens. 👽🌙
 
 
 ## Official Links
