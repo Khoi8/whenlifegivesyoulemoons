@@ -12,6 +12,10 @@ const useStyles = makeStyles((theme) => ({
 const SignIn = () => {
     const classes = useStyles();
 
+<<<<<<< HEAD:src/components/signin/signIn.js
+=======
+function newUser() {
+>>>>>>> 61fb8684ae1eb5b28851ec10a1c70ae92aeeb186:src/components/signin/newUser.js
   return (
     <div>
         <Button variant="contained" color="primary">
@@ -22,4 +26,8 @@ const SignIn = () => {
   );
 }
 
+<<<<<<< HEAD:src/components/signin/signIn.js
 export default SignIn;
+=======
+export default newUser();
+>>>>>>> 61fb8684ae1eb5b28851ec10a1c70ae92aeeb186:src/components/signin/newUser.js
