@@ -9,4 +9,4 @@ function matches() {
   );
 }
 
-export default matches;
+export default matches();
