@@ -1,5 +1,5 @@
 # When Life Gives You Lemons
-To The Moon And Hack - MLH Hackathon 2020
+[To The Moon And Hack](https://organize.mlh.io/participants/events/3701-to-the-moon-and-hack) - MLH Hackathon 2020
 
 ## Official Links
 * [Website](https://whenlifegivesyoulemoons.space)
