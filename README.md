@@ -1,8 +1,9 @@
 # When Life Gives You Lemons
-[To The Moon And Hack](https://organize.mlh.io/participants/events/3701-to-the-moon-and-hack) - MLH Hackathon 2020
+When life gives you lemons, use Lemoons and find the alien of your dreams. ♥️
 
 ## Official Links
-* [Website](https://whenlifegivesyoulemoons.space)
+* [To The Moon and Hack](https://organize.mlh.io/participants/events/3701-to-the-moon-and-hack) - MLH Hackathon 2020
+* [Project Website](https://whenlifegivesyoulemoons.space)
 * [Devpost Project Details + Demo](https://devpost.com/software/when-life-gives-you-lemoons/)
 
 ## Notes
