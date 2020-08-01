@@ -9,4 +9,4 @@ function messageList() {
   );
 }
 
-export default messageList;
+export default messageList();
