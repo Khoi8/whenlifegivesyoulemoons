@@ -25,7 +25,10 @@ const SplashScreens = () => {
                 <Typography variant="h1" component="h2">
                 lemoons☽
                 </Typography>
-                <Button variant="outlined" padding="20">Default</Button>
+                <div className="hello">
+                <Button variant="outlined">Login to Existing Account................</Button>
+                <Button variant="outlined">Create a New Account</Button>
+                </div>
             </div>
             
             
