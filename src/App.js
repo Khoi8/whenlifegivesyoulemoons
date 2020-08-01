@@ -1,13 +1,19 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import splashScreen from './components/signin/splashScreen'
+import SplashScreen from './components/signin/SplashScreen'
+import ReturnUser from './components/signin/ReturnUser'
+import NewUser from './components/signin/NewUser';
+import newUser from './components/signin/NewUser';
 
 function App() {
   return (
     <div>
-      {splashScreen}
+      <SplashScreen/>
     </div>
   );
+
 }
+
+
 
 export default App;
