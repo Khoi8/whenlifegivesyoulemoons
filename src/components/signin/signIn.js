@@ -1,12 +1,25 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import {Button, TextField} from '@material-ui/core/';
+import {makeStyles } from '@material-ui/core/styles';
 
-function signIn() {
+const useStyles = makeStyles((theme) => ({
+    root: {
+        margin: theme.spacing(1),
+        width: '25ch',
+    },
+}));
+
+const SignIn = () => {
+    const classes = useStyles();
+
   return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
+    <div>
+        <Button variant="contained" color="primary">
+        Hello World
+        </Button>
+        <TextField className={classes.root}> </TextField>
+    </div>
   );
 }
 
-export default signIn;
+export default SignIn;

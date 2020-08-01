@@ -9,4 +9,4 @@ function profilePage() {
   );
 }
 
-export default profilePage;
+export default profilePage();
