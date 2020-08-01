@@ -1,8 +1,12 @@
-# When Life Gives You Lemons
-To The Moon And Hack - MLH Hackathon 2020
+# When Life Gives You Lemoons
+When life gives you lemons, use Lemoons. <br />
+Lemoons is a geosocial networking and online space dating application. <br />
+Match, chat, and meet new Aliens. 👽🌙
+
 
 ## Official Links
-* [Website](https://whenlifegivesyoulemoons.space)
+* [To The Moon and Hack - MLH Hackathon 2020](https://organize.mlh.io/participants/events/3701-to-the-moon-and-hack) 
+* ["When Life Gives You Lemoons" Website](https://whenlifegivesyoulemoons.space)
 * [Devpost Project Details + Demo](https://devpost.com/software/when-life-gives-you-lemoons/)
 
 ## Notes
