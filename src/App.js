@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import splashScreen from './components/signin/splashScreen'
 
 function App() {
   return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
+    <div>
+      {splashScreen}
+    </div>
   );
 }
 
