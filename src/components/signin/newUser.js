@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
-function signIn() {
+function newUser() {
   return (
     <Button variant="contained" color="primary">
       Hello World
@@ -9,4 +9,4 @@ function signIn() {
   );
 }
 
-export default signIn;
+export default newUser();

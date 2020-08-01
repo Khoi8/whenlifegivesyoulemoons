@@ -1,12 +1,19 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import SplashScreen from './components/signin/SplashScreen'
+import ReturnUser from './components/signin/ReturnUser'
+import NewUser from './components/signin/NewUser';
+import newUser from './components/signin/NewUser';
 
 function App() {
   return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
+    <div>
+      <SplashScreen/>
+    </div>
   );
+
 }
+
+
 
 export default App;
