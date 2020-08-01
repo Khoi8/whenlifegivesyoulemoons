@@ -1,6 +1,8 @@
 # When Life Gives You Lemoons
-Geosocial networking and online space dating application. 
-When life gives you lemons, use Lemoons. Match, chat, and meet new Aliens.
+When life gives you lemons, use Lemoons. <br />
+Lemoons is a geosocial networking and online space dating application. <br />
+Match, chat, and meet new Aliens.
+
 
 ## Official Links
 * [To The Moon and Hack](https://organize.mlh.io/participants/events/3701-to-the-moon-and-hack) - MLH Hackathon 2020
