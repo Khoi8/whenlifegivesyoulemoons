@@ -7,15 +7,26 @@ import Menu from './Menu';
 
 const useStyles = makeStyles((theme) => ({
     menu: {
+        padding: 15,
     },
+    profile: {
+        width: 600,
+        height: 600,
+    }
 }));
 
 function ProfilePage() {
     const classes = useStyles();
   return (
-      <Container maxWidth='lg'>
+      <Container maxWidth='xl'>
           <Menu className={classes.menu}/>
-          <Paper className={classes.root} elevation={1}>
+          <Paper className={classes.profile} elevation={1}>
+              <Container maxWidth='lg'>
+                  <Typography variant='h5'> Name: </Typography>
+                  <Typography variant='h5'> Age: </Typography>
+                  <Typography variant='h5'> Location: </Typography>
+                  <Typography variant='h5'> lorem</Typography>
+              </Container>
           </Paper>
       </Container>
   );
