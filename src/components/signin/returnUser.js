@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import 'fontsource-space-mono';
 import Button from '@material-ui/core/Button';
 import { Typography } from '@material-ui/core';
-// import Typography from '@material-ui/core/Typography';
+
 
 
 const useStyles = makeStyles((theme) => ({    
@@ -18,19 +18,23 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ReturnUser = () => {
+
     const classes = useStyles(); 
         return (
             //<div style={{backgroundColor: "red"}}>
                 <form className={classes.root} noValidate autoComplete="off">
                     <div>
                     <Typography variant="h1" component="h2">
-                    lemoons☽
-                    </Typography>
+                lemoons☽
+                </Typography>
+                <Typography className={classes.introCaption} variant="h5" component="h5" gutterBottom>
+                Log into your existing account.
+                </Typography>
                         <TextField
                             id="standard-password-input"
                             label="Username"
                             type="username"
-                            autoComplete="current-username"
+                            autoComplete="gi current-username"
                         />
                     
                         <TextField
@@ -40,9 +44,10 @@ const ReturnUser = () => {
                             autoComplete="current-password"
                         />
                     </div>
-                    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
+                    <div>
+                    <Button variant="outlined" a href="SplashScreen.js">Back</Button>
+                <Button variant="outlined" onClick={() => { alert('Successfully logged in. You are a star!') }}>Submit</Button>
+                </div>
                 </form>
             //</div>
             
