@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     },  
 }));
 
-const SplashScreens = () => {
+const SplashScreen = () => {
     const classes = useStyles(); 
         return (
             //<div style={{backgroundColor: "red"}}
@@ -35,4 +35,4 @@ const SplashScreens = () => {
         );
 }
 
-export default SplashScreens;
+export default SplashScreen;

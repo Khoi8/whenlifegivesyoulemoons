@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import 'fontsource-space-mono';
 import Button from '@material-ui/core/Button';
 import { Typography } from '@material-ui/core';
-// import Typography from '@material-ui/core/Typography';
+
 
 
 const useStyles = makeStyles((theme) => ({    
@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ReturnUser = () => {
+
     const classes = useStyles(); 
         return (
             //<div style={{backgroundColor: "red"}}>
@@ -30,7 +31,7 @@ const ReturnUser = () => {
                             id="standard-password-input"
                             label="Username"
                             type="username"
-                            autoComplete="current-username"
+                            autoComplete="gi current-username"
                         />
                     
                         <TextField
