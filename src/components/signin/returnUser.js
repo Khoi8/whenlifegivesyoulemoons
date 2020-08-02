@@ -25,8 +25,11 @@ const ReturnUser = () => {
                 <form className={classes.root} noValidate autoComplete="off">
                     <div>
                     <Typography variant="h1" component="h2">
-                    lemoons☽
-                    </Typography>
+                lemoons☽
+                </Typography>
+                <Typography className={classes.introCaption} variant="h5" component="h5" gutterBottom>
+                Log into your existing account.
+                </Typography>
                         <TextField
                             id="standard-password-input"
                             label="Username"
@@ -41,9 +44,10 @@ const ReturnUser = () => {
                             autoComplete="current-password"
                         />
                     </div>
-                    <Button variant="contained" color="primary">
-      Hello World
-    </Button>
+                    <div>
+                    <Button variant="outlined" a href="SplashScreen.js">Back</Button>
+                <Button variant="outlined" onClick={() => { alert('Successfully logged in. You are a star!') }}>Submit</Button>
+                </div>
                 </form>
             //</div>
             

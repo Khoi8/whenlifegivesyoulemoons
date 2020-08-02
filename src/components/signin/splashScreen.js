@@ -13,9 +13,18 @@ const useStyles = makeStyles((theme) => ({
             margin: theme.spacing(1),
             width: '25ch', 
             display: 'block',
-        },
+            
+        },    
     },  
+
+    introCaption: {
+        marginBottom: 20,
+    },
+
+
 }));
+
+
 
 const SplashScreen = () => {
     const classes = useStyles(); 
@@ -25,9 +34,14 @@ const SplashScreen = () => {
                 <Typography variant="h1" component="h2">
                 lemoons☽
                 </Typography>
-                <div className="hello">
-                <Button variant="outlined">Login to Existing Account................</Button>
-                <Button variant="outlined">Create a New Account</Button>
+                <Typography className={classes.introCaption} variant="h5" component="h5" gutterBottom>
+                Match, chat, and meet new Aliens.
+                </Typography>
+                <div>
+                <Button variant="outlined" onClick={() => { alert('Login to Existing Account.') }}>Login to Existing Account................</Button>
+                </div>
+                <div>
+                <Button variant="outlined" onClick={() => { alert('Create a New Account.') }}>Create a New Account.....................</Button>
                 </div>
             </div>
             
